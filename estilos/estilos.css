@@ -1,0 +1,225 @@
+body{
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #222;
+  background-color: #f5f5f5;
+}
+
+#contanier{
+
+.encabezadoPagina {
+  background-color:#4a90e2;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.encabezadoPagina__titulo {
+  margin: 0;
+  font-size: 2em;
+}
+
+.contenidoPrincipal {
+  padding: 20px;
+}
+
+.introduccion__texto {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.seccionBem {
+  background-color: #ffffff;
+  border-left: 5px solid #4a90e2;
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 8px;
+}
+
+.seccionBem__titulo {
+  font-size: 1.5em;
+  color: #4a90e2;
+  margin-bottom: 10px;
+}
+
+.seccionBem__descripcion {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.seccionBem__subtitulo {
+  font-size: 1.2em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.seccionBem__listaOrdenada,
+.seccionBem__listaDesordenada {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.seccionBem__listaDesordenada li {
+  list-style-type: square;
+}
+
+.seccionCamelCase {
+  background-color: #fff9e6;
+  border-left: 5px solid #f5a623;
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 8px;
+}
+
+.seccionCamelCase__titulo {
+  font-size: 1.5em;
+  color: #f5a623;
+  margin-bottom: 10px;
+}
+
+.seccionCamelCase__descripcion {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.seccionCamelCase__subtitulo {
+  font-size: 1.2em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.seccionCamelCase__listaOrdenada,
+.seccionCamelCase__listaDesordenada {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.seccionCamelCase__listaDesordenada li {
+  list-style-type: circle;
+}
+
+.seccionComparacion {
+  background-color: #eaf7ff;
+  border-left: 5px solid #2d9cdb;
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 8px;
+}
+
+.seccionComparacion__titulo {
+  font-size: 1.5em;
+  color: #2d9cdb;
+  margin-bottom: 15px;
+}
+
+.seccionComparacion__tabla {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.seccionComparacion__tabla th,
+.seccionComparacion__tabla td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.seccionComparacion__tabla th {
+  background-color: #d0ecfc;
+  color: #222;
+}
+
+.seccionComparacion__alerta {
+  background-color: #d1e7dd;
+  border: 1px solid #badbcc;
+  color: #363636;
+  padding: 12px 16px;
+  border-radius: 6px;
+  font-size: 1em;
+  font-weight: 400;
+  margin-top: 20px;
+  line-height: 1.6;
+}
+
+.aplicacionBem {
+  background-color: #fff;
+  border-left: 5px solid #27ae60;
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 8px;
+}
+
+.aplicacionBem__titulo {
+  font-size: 1.5em;
+  color: #27ae60;
+  margin-bottom: 15px;
+}
+
+/* BLOQUE TARJETA */
+.tarjetaProducto {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #fafafa;
+  max-width: 200px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.tarjetaProducto--destacada {
+  border-color: #27ae60;
+  background-color: #eaffea;
+}
+
+.tarjetaProducto__imagen {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.tarjetaProducto__titulo {
+  font-size: 1.2em;
+  margin: 10px 0;
+  color: #333;
+}
+
+.tarjetaProducto__precio {
+  font-size: 1.1em;
+  color: #27ae60;
+  margin: 5px 0 15px;
+}
+
+.tarjetaProducto__boton {
+  padding: 10px 15px;
+  font-size: 1em;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tarjetaProducto__boton:hover {
+  background-color: #219150;
+}
+
+.piePagina {
+  background-color: #4a90e2;
+  text-align: center;
+  color: white;
+  padding: 15px;
+}
+
+.piePagina__texto {
+  margin: 0;
+  font-size: 0.9em;
+}
+}

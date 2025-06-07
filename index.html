@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metodologías BEM y camelCase</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="shortcut icon" href="imagenes/CamelCase_new.svg.png" type="image/x-icon">
+</head>
+
+<body>
+
+<main id="contanier">
+    <!-- Aqui va el encabezado -->
+    <header class="encabezadoPagina">
+
+        <h1 class="encabezadoPagina__titulo">Metodologías de nombrado: BEM y camelCase</h1>
+
+    </header>
+
+    <!-- Aquí va el cuerpo -->
+    <section class="contenidoPrincipal">
+
+        <section class="introduccion">
+            <p class="introduccion__texto">
+            Esta página tiene como objetivo explicar y comparar dos metodologías de nombrado muy utilizadas en el desarrollo web: BEM y camelCase. Además, se aplican los conceptos básicos de HTML y CSS aprendidos en clase.
+            </p>
+        </section>
+
+        <section class="seccionBem">
+            <h2 class="seccionBem__titulo">¿Qué es BEM?</h2>
+
+                <p class="seccionBem__descripcion">
+                BEM (Block Element Modifier) es una metodología de nombrado para clases en CSS que ayuda a escribir código más claro, estructurado y mantenible. Se basa en dividir la interfaz en bloques independientes que contienen elementos y pueden tener modificadores.
+                </p>
+
+            <h3 class="seccionBem__subtitulo">Ventajas de usar BEM</h3>
+                <ol class="seccionBem__listaOrdenada">
+                    <li>Facilita la reutilización de componentes.</li>
+                    <li>Mejora la legibilidad del código.</li>
+                    <li>Hace más fácil el mantenimiento del CSS.</li>
+                    <li>Evita conflictos de nombres.</li>
+                    <li>Favorece el trabajo en equipo.</li>
+                </ol>
+
+            <h3 class="seccionBem__subtitulo">Ejemplos de clases con BEM</h3>
+                <ul class="seccionBem__listaDesordenada">
+                    <li>.tarjetaProducto</li>
+                    <li>.tarjetaProducto__titulo</li>
+                    <li>.tarjetaProducto__imagen</li>
+                    <li>.tarjetaProducto--destacada</li>
+                    <li>.boton--deshabilitado</li>
+                </ul>
+        </section>
+
+        <section class="seccionCamelCase">
+            <h2 class="seccionCamelCase__titulo">¿Qué es camelCase?</h2>
+
+                <p class="seccionCamelCase__descripcion">
+                camelCase es una convención de escritura donde la primera palabra comienza en minúscula y las siguientes empiezan con mayúscula, sin espacios ni guiones. Es muy utilizada para nombrar variables y funciones en JavaScript y clases en CSS.
+                </p>
+
+            <h3 class="seccionCamelCase__subtitulo">¿Dónde se usa camelCase?</h3>
+
+                <ol class="seccionCamelCase__listaOrdenada">
+                    <li>Nombres de variables en JavaScript.</li>
+                    <li>Funciones en lenguajes de programación.</li>
+                    <li>Clases en frameworks JS.</li>
+                    <li>Nombres de archivos en proyectos web.</li>
+                    <li>Métodos en objetos JavaScript.</li>
+                </ol>
+
+            <h3 class="seccionCamelCase__subtitulo">Ejemplos de camelCase</h3>
+
+                <ul class="seccionCamelCase__listaDesordenada">
+                    <li>miVariable</li>
+                    <li>obtenerDatosUsuario</li>
+                    <li>formularioDeContacto</li>
+                    <li>menuDesplegable</li>
+                    <li>cambiarColorFondo</li>
+                </ul>
+        </section>
+
+        <section class="seccionComparacion">
+            <h2 class="seccionComparacion__titulo">Comparación entre BEM y camelCase</h2>
+
+        <table class="seccionComparacion__tabla">
+
+            <thead>
+
+                <tr>
+                    <th>Característica</th>
+                    <th>BEM</th>
+                    <th>camelCase</th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>Uso principal</td>
+                    <td>Clases CSS</td>
+                    <td>Variables y funciones JS</td>
+                </tr>
+
+                <tr>
+                    <td>Sintaxis</td>
+                    <td>bloque__elemento--modificador</td>
+                    <td>primeraLetraMinúscula</td>
+                </tr>
+
+                <tr>
+                    <td>Claridad estructural</td>
+                    <td>Alta</td>
+                    <td>Media</td>
+                </tr>
+
+                <tr>
+                    <td>Legibilidad</td>
+                    <td>Alta</td>
+                    <td>Alta</td>
+                </tr>
+
+                <tr>
+                    <td>Ideal para</td>
+                    <td>Componentes HTML y CSS</td>
+                    <td>Lógica de programación</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+            <div class="seccionComparacion__alerta">
+                <strong>✅ Recomendación:</strong> BEM se recomienda para estructurar clases CSS en proyectos grandes y colaborativos. camelCase se usa más en la lógica del código, especialmente en JavaScript.
+            </div>
+
+        </section>
+
+        <section class="aplicacionBem">
+            <h2 class="aplicacionBem__titulo">Ejemplo visual con BEM aplicado en CSS</h2>
+
+                <div class="tarjetaProducto tarjetaProducto--destacada">
+                    <img src="imagenes/images.jpg" alt="Producto" class="tarjetaProducto__imagen">
+                    <h3 class="tarjetaProducto__titulo">Nombre del producto</h3>
+                    <p class="tarjetaProducto__precio">S/ 359.99</p>
+                    <button class="tarjetaProducto__boton">Agregar al carrito</button>
+                </div>
+        </section>
+
+    </section>
+
+    
+
+    <!-- Aqui va el pie de página -->
+    <footer class="piePagina">
+        <p class="piePagina__texto">Página creada por Angie Diorela Lizarsaburu Alfaro - 2025</p>
+    </footer>
+
+</main>
+</body>
+</html>
